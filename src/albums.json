@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Album 1",
+    "artist": "Artist 1",
+    "artwork": "/greendayAmericanIdiot.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Album 2",
+    "artist": "Artist 2",
+    "artwork": "/radioheadKidA.png"
+  },
+  {
+    "id": 3,
+    "title": "Album 1",
+    "artist": "Artist 1",
+    "artwork": "/greendayAmericanIdiot.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Album 2",
+    "artist": "Artist 2",
+    "artwork": "/radioheadKidA.png"
+  },
+  {
+    "id": 5,
+    "title": "Album 1",
+    "artist": "Artist 1",
+    "artwork": "/greendayAmericanIdiot.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Album 2",
+    "artist": "Artist 2",
+    "artwork": "/radioheadKidA.png"
+  },
+  {
+    "id": 7,
+    "title": "Album 1",
+    "artist": "Artist 1",
+    "artwork": "/greendayAmericanIdiot.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Album 2",
+    "artist": "Artist 2",
+    "artwork": "/radioheadKidA.png"
+  }
+]
