@@ -3,7 +3,7 @@ import { useTexture, Html } from "@react-three/drei";
 import { useSpring, animated as a } from "@react-spring/three";
 // import AlbumInfo from "./AlbumInfo";
 import axios from "axios";
-// import Loader, { ThreeDots } from "react-loader-spinner";
+import { ThreeDots } from "react-loader-spinner";
 
 function AlbumCover({
   textureUrl,
