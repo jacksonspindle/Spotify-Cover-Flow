@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { useTexture, Html } from "@react-three/drei";
 import { useSpring, animated as a } from "@react-spring/three";
-import AlbumInfo from "./AlbumInfo";
+// import AlbumInfo from "./AlbumInfo";
 import axios from "axios";
-import Loader, { ThreeDots } from "react-loader-spinner";
+// import Loader, { ThreeDots } from "react-loader-spinner";
 
 function AlbumCover({
   textureUrl,
@@ -97,7 +97,7 @@ function AlbumCover({
     } else {
       setMusicVideos([]); // Reset music videos when album is deselected
     }
-  }, [isEnlarged]);
+  }, [isEnlarged, fetchMusicVideos]);
 
   return (
     <>
@@ -142,7 +142,7 @@ function AlbumCover({
                   <p>{artistName}</p>
                   <br></br>
                   <p>{albumDescription}</p>
-                  <img src={artistImage}></img>
+                  <img src={artistImage} alt="1"></img>
                   {trackList.map((track, index) => (
                     <p key={index}>{`${index + 1}. ${track.name}`}</p>
                   ))}

@@ -1,11 +1,11 @@
 import React, { useState, useEffect, useRef, Suspense } from "react";
-import { Canvas, useThree } from "@react-three/fiber";
+import { Canvas } from "@react-three/fiber";
 // import albumsData from "./albums.json";
 import AlbumCover from "./AlbumCover";
-import { OrbitControls } from "@react-three/drei";
-import AlbumInfo from "./AlbumInfo";
+// import { OrbitControls } from "@react-three/drei";
+// import AlbumInfo from "./AlbumInfo";
 // import { useThree } from "@react-three/fiber";
-import * as THREE from "three";
+// import * as THREE from "three";
 
 function CoverFlow({ albumsData, searchQuery, coverFlowContainerRef }) {
   const [selectedIndex, setSelectedIndex] = useState(0);

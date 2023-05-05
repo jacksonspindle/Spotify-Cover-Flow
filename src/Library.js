@@ -175,9 +175,9 @@ const Library = ({ accessToken, canvasRef, onLibraryLoadComplete }) => {
     }
   };
 
-  const handleSearchChange = (event) => {
-    setSearchQuery(event.target.value);
-  };
+  // const handleSearchChange = (event) => {
+  //   setSearchQuery(event.target.value);
+  // };
 
   const filteredAlbums = albums.filter((item) => {
     let album = item.album.name;
